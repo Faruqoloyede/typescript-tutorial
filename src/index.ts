@@ -39,4 +39,24 @@ const users: user = [
         occupation: "programmer"
     }
 ]
-console.log(users[0].id);
+
+type use = {
+    id: number,
+    name: string,
+    hobby: any
+}
+
+const random : any= ["tree", 795, 
+    {
+    id: 1,
+    name: "faruq",
+    hobby: "coding"
+},
+{
+    id: 2,
+    name: "lekan",
+    hobby: "reading"
+}
+];
+
+console.log(users[0]);

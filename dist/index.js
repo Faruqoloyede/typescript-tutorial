@@ -29,4 +29,16 @@ const users = [
         occupation: "programmer"
     }
 ];
-console.log(users[0].id);
+const random = ["tree", 795,
+    {
+        id: 1,
+        name: "faruq",
+        hobby: "coding"
+    },
+    {
+        id: 2,
+        name: "lekan",
+        hobby: "reading"
+    }
+];
+console.log(users[0]);
